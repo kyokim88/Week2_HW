@@ -45,7 +45,7 @@ class MainViewController: UIViewController, UIScrollViewDelegate {
         
         func scrollViewWillBeginDecelerating(_ scrollView: UIScrollView!) {
             // Get the current page based on the scroll offset
-            var page : Int = Int(round(scrollView.contentOffset.x / 375))
+            let page : Int = Int(round(scrollView.contentOffset.x / 375))
             
             // Set the current page, so the dots will update
             pageControl.currentPage = page
