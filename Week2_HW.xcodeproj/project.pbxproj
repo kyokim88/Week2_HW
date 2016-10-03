@@ -14,6 +14,13 @@
 		D3F196F81D9B22DF00142B49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3F196F61D9B22DF00142B49 /* LaunchScreen.storyboard */; };
 		D3F197031D9B22DF00142B49 /* Week2_HWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F197021D9B22DF00142B49 /* Week2_HWTests.swift */; };
 		D3F1970E1D9B22DF00142B49 /* Week2_HWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F1970D1D9B22DF00142B49 /* Week2_HWUITests.swift */; };
+		D3F1971E1D9B461400142B49 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F1971D1D9B461400142B49 /* IntroViewController.swift */; };
+		D3F197201D9B5C0C00142B49 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F1971F1D9B5C0C00142B49 /* LoginViewController.swift */; };
+		D3F197221D9E562100142B49 /* Common-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F197211D9E562100142B49 /* Common-2.swift */; };
+		D3F197241D9F1E1F00142B49 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F197231D9F1E1F00142B49 /* MainViewController.swift */; };
+		D3F197261D9F671B00142B49 /* CarouselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F197251D9F671B00142B49 /* CarouselViewController.swift */; };
+		D3F197281D9F84E100142B49 /* BackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F197271D9F84E100142B49 /* BackViewController.swift */; };
+		D3F1972A1DA06F2200142B49 /* BubbleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F197291DA06F2200142B49 /* BubbleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		D3F197091D9B22DF00142B49 /* Week2_HWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Week2_HWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3F1970D1D9B22DF00142B49 /* Week2_HWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week2_HWUITests.swift; sourceTree = "<group>"; };
 		D3F1970F1D9B22DF00142B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3F1971D1D9B461400142B49 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		D3F1971F1D9B5C0C00142B49 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D3F197211D9E562100142B49 /* Common-2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Common-2.swift"; sourceTree = "<group>"; };
+		D3F197231D9F1E1F00142B49 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../MainViewController.swift; sourceTree = "<group>"; };
+		D3F197251D9F671B00142B49 /* CarouselViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselViewController.swift; sourceTree = "<group>"; };
+		D3F197271D9F84E100142B49 /* BackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackViewController.swift; sourceTree = "<group>"; };
+		D3F197291DA06F2200142B49 /* BubbleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +91,7 @@
 		D3F196E11D9B22DF00142B49 = {
 			isa = PBXGroup;
 			children = (
+				D3F197251D9F671B00142B49 /* CarouselViewController.swift */,
 				D3F196EC1D9B22DF00142B49 /* Week2_HW */,
 				D3F197011D9B22DF00142B49 /* Week2_HWTests */,
 				D3F1970C1D9B22DF00142B49 /* Week2_HWUITests */,
@@ -97,12 +112,18 @@
 		D3F196EC1D9B22DF00142B49 /* Week2_HW */ = {
 			isa = PBXGroup;
 			children = (
+				D3F197231D9F1E1F00142B49 /* MainViewController.swift */,
 				D3F196ED1D9B22DF00142B49 /* AppDelegate.swift */,
 				D3F196EF1D9B22DF00142B49 /* ViewController.swift */,
 				D3F196F11D9B22DF00142B49 /* Main.storyboard */,
+				D3F197291DA06F2200142B49 /* BubbleViewController.swift */,
+				D3F197271D9F84E100142B49 /* BackViewController.swift */,
+				D3F1971F1D9B5C0C00142B49 /* LoginViewController.swift */,
+				D3F1971D1D9B461400142B49 /* IntroViewController.swift */,
 				D3F196F41D9B22DF00142B49 /* Assets.xcassets */,
 				D3F196F61D9B22DF00142B49 /* LaunchScreen.storyboard */,
 				D3F196F91D9B22DF00142B49 /* Info.plist */,
+				D3F197211D9E562100142B49 /* Common-2.swift */,
 			);
 			path = Week2_HW;
 			sourceTree = "<group>";
@@ -260,7 +281,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3F196F01D9B22DF00142B49 /* ViewController.swift in Sources */,
+				D3F197261D9F671B00142B49 /* CarouselViewController.swift in Sources */,
+				D3F197221D9E562100142B49 /* Common-2.swift in Sources */,
+				D3F197281D9F84E100142B49 /* BackViewController.swift in Sources */,
+				D3F1972A1DA06F2200142B49 /* BubbleViewController.swift in Sources */,
 				D3F196EE1D9B22DF00142B49 /* AppDelegate.swift in Sources */,
+				D3F197241D9F1E1F00142B49 /* MainViewController.swift in Sources */,
+				D3F197201D9B5C0C00142B49 /* LoginViewController.swift in Sources */,
+				D3F1971E1D9B461400142B49 /* IntroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +531,7 @@
 				D3F197141D9B22DF00142B49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3F197151D9B22DF00142B49 /* Build configuration list for PBXNativeTarget "Week2_HWTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +540,7 @@
 				D3F197171D9B22DF00142B49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3F197181D9B22DF00142B49 /* Build configuration list for PBXNativeTarget "Week2_HWUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +549,7 @@
 				D3F1971A1D9B22DF00142B49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
